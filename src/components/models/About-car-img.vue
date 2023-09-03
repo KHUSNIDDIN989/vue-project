@@ -10,7 +10,6 @@
     <div class="flex justify-center mt-14">
       <div class="flex items-center">
         <input
-           v-model="picked" 
           id="default-radio-1"
           type="radio"
           value="1"
@@ -26,7 +25,7 @@
       </div>
       <div class="flex items-center">
         <input
-         v-model="picked"
+          v-model="picked"
           id="default-radio-2"
           type="radio"
           value="2"
@@ -39,12 +38,10 @@
           >Ichki makon</label
         >
       </div>
-      
     </div>
   </div>
 </template>
 <script>
-
 export default {
   data() {
     return {
@@ -52,9 +49,9 @@ export default {
     };
   },
   methods: {
-      check(e) {
-        console.log(e);
-      return e ;
+    check(e) {
+      console.log(e);
+      return e;
     },
   },
 };
